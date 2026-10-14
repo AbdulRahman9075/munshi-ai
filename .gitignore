@@ -1,0 +1,64 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio / IntelliJ
+.idea/
+out/
+
+# Android build outputs
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing keys and credentials
+*.jks
+*.keystore
+keystore.properties
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Kotlin
+.kotlin/
+
+# Logs
+*.log
+
+# OS-generated files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Google services credentials (if applicable)
+google-services.json
+
+# Firebase / cloud credentials (if applicable)
+service-account*.json
